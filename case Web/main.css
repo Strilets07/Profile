@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+}
+.bgc {
+  background-color: #f1f5f7;
+  height: 320px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar {
+  background-color: #293449;
+  height: 40px;
+}
+.nav-box-1 {
+  margin: auto;
+  width: 940px;
+}
+.left-box {
+  width: 50%;
+}
+.right-box {
+  width: 50%;
+}
+.l-fl {
+  float: left;
+}
+.r-fl {
+  float: right;
+}
+.box-search {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.box-logo h1 {
+  width: 220px;
+  height: 40px;
+  background-color: #ee3643;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.search img {
+  width: 20px;
+  margin-right: 15px;
+}
+input {
+color: white;
+background-color: transparent;
+border: none;
+  }
+.mark img {
+  width: 15px;
+}
+.basket img {
+  width: 15px;
+}
+.box-order {
+  background-color: #63a63e;
+  width: 40%;
+  height: 40px;
+  /*height: 40px;*/
+  text-align: center;
+}
+.box-order p {
+  background-color: #63a63e;
+  width: auto;
+  height: 40px;
+  height: 40px;
+  text-align: center;
+}
+.order-text {
+margin-top: 5px;
+}
+.basket-item {
+  width: 60%;
+}
+.box-basket {
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+.nav-section {
+  margin: auto;
+  width: 940px;
+  height: 280px;
+  background-color: #f1f5f7;
+  border: solid 1px;
+}
+.nav-section-middle {
+  margin: auto;
+  width: 940px;
+  height: 160px;
+  border: solid 1px;
+}
+.middle-block {
+  margin: 0 5px 0 5px;
+  width: 300px;
+  height: 160px;
+  border: solid 1px;
+}
+.middle-block h2 {
+  text-align: left;
+  margin: 50px 50px 50px 50px;
+  color: #ee3643;
+  font-size: 15px;
+}
+.phone-number {
+  width: 265px;
+  height: 40px;
+  border: solid 1px;
+  margin-top: 47px;
+}
+.phone img {
+  width: 15px;
+}
+.phone-box-number {
+  width: 70%;
+  margin-top: 7px;
+  text-decoration: none;
+}
+.phone {
+  width: 30%;
+  margin-top: 7px;
+}
+.ph-center {
+  text-align: center;
+  /*margin-top: 7px;*/
+}
+.number {
+  /*margin-top: 7px;*/
+  font-size: 15px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.address {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.enter {
+  width: 120px;
+  height: 45px;
+  border: solid 1px;
+  font-size: 15px;
+  margin-top: 47px;
+  padding: 10px 0 0 0;
+}
+.login {
+  width: 150px;
+  height: 45px;
+  border: solid 1px;
+  font-size: 15px;
+  margin-top: 47px;
+
+}

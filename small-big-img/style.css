@@ -1,0 +1,23 @@
+#big-img {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	}
+p {
+	text-align: center;
+}
+#small-img {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 150px;
+
+}
+img {
+	margin: 10px 30px 10px 30px;
+	width: 130px;
+	height: 130px;
+}
+.mystyle {
+	border: 2px solid lime;
+}

@@ -1,0 +1,54 @@
+.test {
+	margin: 30px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+.test:hover {
+	background: orange;
+}
+.test:active {
+	background: red;
+}
+.test2 {
+	color: blue;
+}
+.test2:visited {
+	color: yellow;
+}
+.test2 {
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid transparent;
+	border-right: 200px solid green;
+	border-bottom: 100px solid transparent;
+	/*border-left: 100px solid yellow;*/
+	background: none;
+}
+
+.test5 {
+	margin: 50px;
+	width: 200px;
+	height: 50px;
+	background: orange;
+	position: relative;
+	border-top: 10px 0 0 10px;
+}
+.test5::after {
+	content: " ";
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: -50px;
+	top: 0px;
+	border-top: 25px solid transparent;
+	border-left: 50px;
+	border-bottom: 25px solid transparent;
+	background: red;
+}
+.test5::before {
+	content: "\2602";
+	color: #fff;
+	font-size: 24px;
+}
