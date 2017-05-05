@@ -1,0 +1,22 @@
+.test {
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.hero {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: black;
+}
+
+.test2 {
+	width: 100px;
+	height: 100px;
+	background: lime;
+	margin: 50px;
+	display: block;
+}

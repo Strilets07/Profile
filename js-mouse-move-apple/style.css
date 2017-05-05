@@ -1,0 +1,17 @@
+.test {
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: 50px;
+}
+
+.test2 {
+	width: 80%;
+	height: 80%;
+	background: grey;
+	margin: auto;
+	position: relative;
+}
+.apple {
+	position: absolute;
+}

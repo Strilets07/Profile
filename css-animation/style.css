@@ -1,0 +1,33 @@
+.test {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: orange;
+	animation-name: ppp;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-duration: altenate;
+	animation-delay: 3s;
+}
+@keyframes ppp {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	30% {
+		left: 300px;
+		top: 50px;
+	}
+	60% {
+		left: 800px;
+		top: 350px;
+	}
+	80% {
+		left: 600px0;
+		top: 800px;
+	}
+	100% {
+		left: 0;
+		top: 0;
+	}
+}

@@ -1,0 +1,19 @@
+.cont {
+	width: 350px;
+	height: 700px;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.test4 {
+	box-sizing: border-box;
+	left: -80px;
+	width: 100px;
+	height: 700px;
+	/*float: left;*/
+	background: gold;
+	position: absolute;
+	border: 1px solid black;
+}
