@@ -30,22 +30,11 @@ img {
 .four-in-line {
   width: 24%;
 }
-@media screen and (max-width: 1000px )  {
-      #wrap {
-        width: 100%;
-      }
-      .four-in-line {
-        width: 24%;
-        /*padding-bottom: 0px;*/
-      }
-  }
-
 @media screen and (max-width: 700px )  {
       #wrap {
         width: 600px;
       }
       .four-in-line {
         width: 49%;
-        padding-bottom: 0px;
       }
   }
