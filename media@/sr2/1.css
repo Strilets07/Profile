@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: #d3d3d3;
+}
+#wrap {
+  width: 1000px;
+  margin: auto;
+  padding: 15px 30px 15px 30px;
+  background: white;
+}
+img {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo-name {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.two-in-line {
+  width: 49%;
+}
+.three-in-line {
+  width: 31%;
+}
+.four-in-line {
+  width: 24%;
+}
+@media screen and (max-width: 700px )  {
+      #wrap {
+        width: 600px;
+      }
+      .four-in-line {
+        width: 49%;
+      }
+  }
