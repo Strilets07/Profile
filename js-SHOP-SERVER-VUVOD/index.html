@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SHOP</title>
+
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+		<div class="main">
+
+						<div class="left clearfix">
+							<div id="filter">
+								<span>Фильтр</span>
+							</div>
+							<div id="filter">
+								<p>Цена: <input type="range" value="0" min="0" max="30000" id="sum"></p>
+								<textarea id="out-price"></textarea>
+							</div>
+							<div id="filter">
+								<form>
+								  Производители<br><br>
+								  <input type="radio" name="producer" value="Bosch" >Bosch<br>
+								  <input type="radio" name="producer" value="TexAc" >TexAc<br>
+								  <input type="radio" name="producer" value="Craft" >Craft<br>
+								  <input type="radio" name="producer" value="Днепр-М">Днепр-М<br>
+								  <input type="radio" name="producer" value="Титан" >Титан<br>
+								  <input type="radio" name="producer" value="Metabo" >Metabo<br>
+								</form>
+							</div>
+							<div id="filter">
+								<button class="button" onclick="f1()">Показать</button>
+							</div>
+						</div>
+
+						<div class="rigth">
+								<div id="price">
+									<span>Сортировка</span>
+								</div>
+								<div id="price">
+										<span>По цене</span>
+								</div>
+								<div id="price">
+
+								</div>
+								<div id="out"></div>
+						</div>
+		</div>
+
+
+
+<script type="text/javascript" src="goods.js"></script>
+</body>
+</html>
