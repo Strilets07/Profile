@@ -1,0 +1,97 @@
+$white = #ffffff
+$black = #000000
+$grey = #adadad
+$brown = #262424
+$pink = #a89292
+$iphone = "only screen and (max-width: 320px)";
+$phoneSE = "only screen and (max-width: 400px)";
+$phone = "only screen and (max-width: 480px)";
+$phoneAl = "only screen and (max-width: 600px)";
+$tablet = "only screen and (max-width: 768px)";
+$ultra1 = "only screen and (max-width: 992px)";
+$tabletW = "only screen and (max-width: 990px)";
+$ultra = "only screen and (max-width: 1024px)";
+$s1100 = "only screen and (max-width: 1100px)";
+$s1200 = "only screen and (max-width: 1280px)";
+$s1360 = "only screen and (max-width: 1360px)";
+$laptop = "only screen and (max-width: 1400px)";
+$laptop1 = "only screen and (max-width: 1440px)";
+*
+    box-sizing border-box
+    outline none
+body
+    font-family 'Open Sans', sans-serif
+    background-color $white
+a
+    text-decoration none
+ul
+    list-style none
+
+h1,h2,h3,h4,h5,h6,p,span,ul
+    padding 0
+    margin 0
+    text-align center
+li
+    list-style none
+    display inline-block
+nav
+    text-align center
+span
+    color red
+    padding-left 230px
+    @media $phone
+        color blue
+        padding-left 50px
+p
+    color red
+    font-size 14px
+    @media $phone
+        color blue
+        font-size 10px
+.app
+    margin auto
+    display table
+    &_title
+      padding: 50px 0 50px 0
+      text-align center
+      color rgba(33, 150, 243, 0.8)
+.section
+    width 550px
+    border 1px solid #d9d9d9
+    border-radius 5px
+    box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.2) 0 25px 50px 0 rgba(0, 0, 0, 0.1)
+    &_list
+      padding 5px
+      list-style-type none
+      margin-bottom 15px
+      display flex
+      &_data
+        border-bottom 1px solid #d9d9d9
+        margin-bottom 15px
+        padding-bottom: 10px
+        font-size 16px
+        height 30px
+        width 500px
+        float left
+        &_name
+          margin-left 10px
+          font-size 15px
+        &_time
+          margin-left 100px
+          color #AF90A9
+        &_time
+          margin-left 100px
+        &_start
+          margin-left 10px
+          border-radius 3px
+          font-size 16px
+          color inherit
+          background none
+          width 100px
+          outline-style none
+.imageClose
+    float right
+    margin-top -24px
+    margin-right -30px
+.template
+    display inline-block

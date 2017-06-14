@@ -20,6 +20,7 @@ document.querySelector('.tt1').onmousewheel = function (event){
     else {
       tt2= tt2-10;
     }
+    console.log(r);
 }
 document.querySelector('.center-block').style.marginTop = tt2 + 'px';
 return false;
