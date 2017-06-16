@@ -1,0 +1,13 @@
+body {
+  background: #93A3BC;
+  margin: 0;
+  box-sizing: border-box;
+}
+.block {
+  display: inline-block;
+}
+.block-img {
+  float:left;
+}
+.block-text {
+}
